@@ -1,0 +1,45 @@
+fileFormatVersion: 2
+guid: 09cdaa1422df81b4683d71ea670577d5
+timeCreated: 1544505465
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - P1_Active: {fileID: 2100000, guid: 101dc5509448e2641bbdd0c61eec3b6a, type: 2}
+  - P1_Character: {fileID: 2100000, guid: fec1092703135c342a91e619da936a61, type: 2}
+  - P1_Recovery: {fileID: 2100000, guid: 123debee1fd26604894b98d1e9429d65, type: 2}
+  - P1_Startup: {fileID: 2100000, guid: 2424509176348b747b82cd53628e03ea, type: 2}
+  - P2_Active: {fileID: 2100000, guid: 26d73ce688113294b865a00a23f57605, type: 2}
+  - P2_Character: {fileID: 2100000, guid: 619752b37490e4848bc1c306f36d82de, type: 2}
+  - P2_Recovery: {fileID: 2100000, guid: 7e3f8f96a244aea469b8a4f2c0f2a8d3, type: 2}
+  - P2_Startup: {fileID: 2100000, guid: b7621ce8d7c9fd243bd17a3592893eed, type: 2}
+  - TXT_1: {fileID: 21300000, guid: 9129a275d95035047a873dbab903ed5b, type: 3}
+  - TXT_2: {fileID: 21300000, guid: 91be6ddb2d848a145ba579ddf4e388ce, type: 3}
+  - TXT_3: {fileID: 21300000, guid: 9388a77ca3fbc544cab87307acbf3ab4, type: 3}
+  - TXT_Foozies: {fileID: 21300000, guid: 88b11cd6c3b10a5418269ea0507180e7, type: 3}
+  - TXT_Counterhit: {fileID: 21300000, guid: f89728c90da3cb847ae919f9f6566fcf, type: 3}
+  - TXT_Draw: {fileID: 21300000, guid: 946a7aec8ba47cf4c855aad55529d318, type: 3}
+  - TXT_Player1: {fileID: 21300000, guid: ee273db0d37f56e429895f91ce34ff89, type: 3}
+  - TXT_Player2: {fileID: 21300000, guid: 5788b7120a212094ba1fe844df77a183, type: 3}
+  - TXT_Shimmy: {fileID: 21300000, guid: 3587393bf44dd8346a6ee046c2dea0cd, type: 3}
+  - TXT_StrayHit: {fileID: 21300000, guid: 3327d527bfd88a3459dfbaebe9e104e2, type: 3}
+  - TXT_Win: {fileID: 21300000, guid: 8b2dafac84bdb55408fb7cc07a1dd35f, type: 3}
+  - TXT_WhiffPunish: {fileID: 21300000, guid: f69038697c1041c4cb77715658210391, type: 3}
+  - TXT_Trade: {fileID: 21300000, guid: 197fe10ab4abdb442b607f60d4cbb49e, type: 3}
+  - TXT_Timeout: {fileID: 21300000, guid: 59a9fd888ff94e84491a5ac9833b0bd7, type: 3}
+  - TXT_Throw: {fileID: 21300000, guid: 18418915f535f0b4380cf5000ccd5090, type: 3}
+  - TXT_GameOver: {fileID: 21300000, guid: cb7a76f55b12cb345a41e39edf330189, type: 3}
+  - TXT_AnyButton: {fileID: 21300000, guid: c81217fc7d07a4244bc3e3047f7cf851, type: 3}
+  - TXT_Feet: {fileID: 21300000, guid: 20737d27bf614ef4cbc47a94bb570891, type: 3}
+  - TXT_Punish: {fileID: 21300000, guid: c92a8cd033b66aa4cb910a43f9f8c791, type: 3}
+  - TXT_CharSelect: {instanceID: 0}
+  - TXT_MainMenu: {instanceID: 0}
+  - GameplayCanvas: {instanceID: 0}
+  - P1_CharName: {instanceID: 0}
+  - P2_CharName: {instanceID: 0}
+  - Timer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
