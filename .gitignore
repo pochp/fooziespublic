@@ -1,0 +1,26 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.DS_Store
+Library/
+Temp/
+Builds/
+testbuild_Data/
+Assets/Rewired/
+Assets/Rewired/DevTools/
+Assets/Rewired/Documentation/
+Assets/Rewired/Examples/
+Assets/Rewired/Extras/
+Assets/Rewired/Integration/
+Assets/Rewired/Internal/Assets/
+Assets/Rewired/Internal/Libraries/
+Assets/Rewired/Internal/Scrpits/
+*.csproj
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
+*.cjc
+*.exe
+*.fbx
+*.mp3
+*.dll
+/obj
