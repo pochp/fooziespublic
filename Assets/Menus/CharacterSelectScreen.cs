@@ -11,6 +11,7 @@ namespace Assets.Menus
         public const string STR_SWEEP = "Sweep";
         public const string STR_DASH = "Dash";
         public const string STR_ARMOR = "Armor";
+        public const string STR_CMDTHROW = "CmdThrow";
         private SetData m_currentSetData;
 
 
@@ -20,6 +21,7 @@ namespace Assets.Menus
             items.Add(new MenuItem(STR_SWEEP, 0, 0));
             items.Add(new MenuItem(STR_DASH, 1, 0));
             items.Add(new MenuItem(STR_ARMOR, 2, 0));
+            items.Add(new MenuItem(STR_CMDTHROW, 0, 1));
             return new CharacterSelectScreen(items, _currentSetData, _renderer);
         }
 
@@ -55,6 +57,8 @@ namespace Assets.Menus
                 return STR_DASH;
             if (_char is Armor)
                 return STR_ARMOR;
+            if (_char is CommandThrow)
+                return STR_CMDTHROW;
             return string.Empty;
         }
 
@@ -68,6 +72,8 @@ namespace Assets.Menus
                     return new Sweep();
                 case STR_ARMOR:
                     return new Armor();
+                case STR_CMDTHROW:
+                    return new CommandThrow();
             }
             throw new Exception("No Character for string : " + characterName);
         }

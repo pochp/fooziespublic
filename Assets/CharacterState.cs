@@ -333,7 +333,7 @@ public class CharacterState
         }
         else
         {
-            hbox.Position = GameplayConstants.CHARACTER_HURTBOX_WIDTH / 2 - _length / 2;
+            hbox.Position = GameplayConstants.CHARACTER_HURTBOX_WIDTH / -2 - _length / 2;
         }
     }
 
